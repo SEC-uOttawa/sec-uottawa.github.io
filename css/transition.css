@@ -1,22 +1,22 @@
-.transition-1{
+.transition-1 {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 101;
-    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background: linear-gradient(rgba(51, 23, 163, 0.7), rgba(31, 161, 148, 0.7));
     opacity: 0;
     pointer-events: none;
     transition: 0.3s ease-out;
 }
 
-.transition-1.is-active{
+.transition-1.is-active {
     opacity: 1;
     pointer-events: all;
 }
 
-.transition-2{
+.transition-2 {
     position: fixed;
     top: 0;
     left: 100%;
@@ -24,16 +24,16 @@
     right: 0;
     bottom: 0;
     z-index: 101;
-    background:linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background: #1fa194;
     pointer-events: none;
     transition: 0.3s ease-out;
 }
 
-.transition-2.is-active{
+.transition-2.is-active {
     left: 0px;
 }
 
-.transition-3{
+.transition-3 {
     position: fixed;
     top: 0;
     left: -100%;
@@ -41,43 +41,43 @@
     right: 0;
     bottom: 0;
     z-index: 101;
-    background: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background: #1fa194;
     pointer-events: none;
     transition: 0.3s ease-out;
 }
 
-.transition-3.is-active{
+.transition-3.is-active {
     left: 0px;
 }
 
-.transition-4{
+.transition-4 {
     position: fixed;
     top: 100%;
     left: 0;
     right: 0;
     height: 100%;
     z-index: 101;
-    background:linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background: #1fa194;
     pointer-events: none;
     transition: 0.3s ease-out;
 }
 
-.transition-4.is-active{
+.transition-4.is-active {
     top: 0;
 }
 
-.transition-5{
+.transition-5 {
     position: fixed;
     bottom: 100%;
     left: 0;
     right: 0;
     height: 100%;
     z-index: 101;
-    background:linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    background: #1fa194;
     pointer-events: none;
     transition: 0.3s ease-out;
 }
 
-.transition-5.is-active{
+.transition-5.is-active {
     bottom: 0;
 }
