@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-family: 'Cutive Mono', monospace;
+    background: #1a1c1c;
+}
+
+.header {
+    width: 100%;
+    height: 6vh;
+    background: #1a1c1c;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.navbar {
+    width: 90%;
+    height: 110%;
+    margin: auto;
+    padding: 1px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.logo {
+    width: 110px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: "";
+    height: 3px;
+    width: 0;
+    background: #153B54;
+    position: absolute;
+    left: 0;
+    bottom: 2%;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover:after {
+    width: 100%;
+}
+
+.title-box{
+    text-align: center;
+    margin: 100px auto 50px;
+    color: #fff;
+}
+
+.title-box p{
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.profile-box{
+    width: 240px;
+    height: 240px;
+    background: #fff;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px 10px 10px rgba(115, 193, 255, 0.1);
+    padding: 20px;
+    position: relative;
+    transition: background 0.5s;
+}
+
+.profile-box img{
+    width: 100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 4px;
+    transition: 0.5s ease;
+}
+
+profile-box h4{
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: #153B54;
+}
+
+profile-box small{
+    color: #153B54;
+}
+
+.social-media{
+    background: #1fa194;
+    margin: 60px auto 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.social-media .fa{
+    margin: 5px;
+    color:  #fff;
+    cursor: pointer;
+}
+
+.profile-box p{
+    text-align: center;
+    line-height: 24px;
+    color: #153B54;
+}
+
+.team-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: auto;
+}
+
+.team-row2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 4% auto;
+}
+
+.profile-box img:hover{
+    width: 240px;
+}
+
+.profile-box:hover{
+    background: #1fa194;
+}
+
+.profile-box:hover h4{
+    color: #fff;
+}
+
+.profile-box:hover p{
+    color: #efefef;
+}
+
+.profile-box:hover small{
+    color: #efefef;
+}
+
+.profile-box:hover .social-media {
+    background: #fff;
+}
+
+.profile-box:hover .social-media .fa{
+    color: #1fa194;
+}

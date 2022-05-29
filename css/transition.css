@@ -5,7 +5,7 @@
     right: 0;
     bottom: 0;
     z-index: 101;
-    background: linear-gradient(rgba(51, 23, 163, 0.7), rgba(31, 161, 148, 0.7));
+    background: #1fa194;
     opacity: 0;
     pointer-events: none;
     transition: 0.3s ease-out;
