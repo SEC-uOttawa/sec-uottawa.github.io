@@ -175,10 +175,53 @@ button:hover span {
 }
 
 #about-us {
-    min-height: 100vh;
+    min-height: 50vh;
     width: 100%;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: aliceblue;
+    background: linear-gradient(#1fa194, #3317a3);;
+}
+
+.about-us-title {
+    width: 55%;
+    position: absolute;
+    top: 108%;
+    left: 42.5%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+
+.about-us-title h1 {
+    font-size: 40px;
+    margin-top: 5%;
+    color: #ffffff;
+}
+
+.line {
+    width: 20%;
+    position: absolute;
+    top: 116%;
+    left: 39%;
+    transform: translateY(-50%);
+}
+
+.line hr {
+    border-top: 3px solid #ffffff;
+    border-radius: 5px;
+}
+
+.about-us-description {
+    width: 70%;
+    position: absolute;
+    top: 118%;
+    left: 22%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.about-us-description p {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 30px;
+    margin-top: 10%;
+    width: 80%;
 }
