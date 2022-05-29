@@ -26,33 +26,33 @@
                 <div class="contact-box">
                     <div class="contact-left">
                         <h3>Send your request</h3>
-                        <form>
-                            <div class="input-row">
-                                <div class="input-group">
-                                    <label>First Name</label>
-                                    <input type="text" placeholder="ex: John">
+                        <form action="https://formspree.io/f/xeqnnryl" method="POST">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" placeholder="ex: John">
                                 </div>
 
-                                <div class="input-group">
-                                    <label>Last Name</label>
-                                    <input type="text" placeholder="ex: Merdard">
-                                </div>
-                            </div>
-
-                            <div class="input-row">
-                                <div class="input-group">
-                                    <label>Email</label>
-                                    <input type="email" placeholder="name@email.com">
-                                </div>
-
-                                <div class="input-group">
-                                    <label>Subject</label>
-                                    <input type="text" placeholder="ex: Course Difficulty, Campus Vibes, ...">
+                                <div class="form-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName" placeholder="ex: Merdard">
                                 </div>
                             </div>
 
-                            <label>Message</label>
-                            <textarea rows="5" placeholder="Your Message"></textarea>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="name@email.com">
+                                </div>
+
+                                <div class="form-group">
+                                    <labelc for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" placeholder="ex: Course Difficulty, Campus Vibes, ...">
+                                </div>
+                            </div>
+
+                            <label for="message">Message</label>
+                            <textarea rows="5" name="message" id="message" placeholder="Your Message"></textarea>
 
                             <button type="submit">Send</button>
                         </form>
