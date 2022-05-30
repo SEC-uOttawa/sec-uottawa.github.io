@@ -9,7 +9,7 @@
 body {
     line-height: 1.5;
     font-family: 'Cutive Mono', monospace;
-    background: #1a1c1c;
+    background: linear-gradient(#3317a3, #1fa194);
 }
 
 .header {
