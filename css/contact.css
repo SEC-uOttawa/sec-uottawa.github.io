@@ -162,3 +162,8 @@ tr td:first-child {
 tr td {
     padding-top: 20px;
 }
+
+.contact-right table td a {
+    color: #1fa194;
+    text-decoration: none;
+}
