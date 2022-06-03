@@ -138,45 +138,53 @@ body {
     }
 }
 
-#about-us {
+.about-us {
     min-height: 30vh;
     width: 100%;
-    display: flex;
     background: linear-gradient(#1fa194, #3317a3);
+    box-sizing: border-box;
+    text-align: center;
+    padding: 40px 0;
+    
 }
 
 .about-us-title {
     width: 55%;
     position: absolute;
-    top: 108%;
-    left: 42.5%;
-    transform: translateY(-50%);
-    text-align: left;
+    top: 111%;
+    left: 22.5%;
+    text-align: center;
+
 }
 
 .about-us-title h1 {
     font-size: 40px;
-    margin-top: 5%;
+    width: 300px;
+    line-height: 90px;
+    display: inline-block;
+    text-align: center;
     color: #ffffff;
+    margin: auto;
+
 }
 
 .line {
     width: 20%;
     position: absolute;
-    top: 116%;
-    left: 39%;
-    transform: translateY(-50%);
+    top: 118%;
+    left: 40%;
+   
 }
 
 .line hr {
     border-top: 3px solid #ffffff;
-    border-radius: 5px;
+    border-radius: 80%;
 }
 
 .about-us-description {
     width: 70%;
     position: absolute;
-    top: 118%;
+    top: 120%;
     left: 22%;
     transform: translateY(-50%);
     text-align: center;
@@ -186,7 +194,7 @@ body {
     font-size: 20px;
     color: #ffffff;
     line-height: 30px;
-    margin-top: 10%;
+    margin-top: 12%;
     width: 80%;
 }
 
@@ -229,7 +237,6 @@ body {
     line-height: 1.6;
     margin-bottom: 0;
     text-align: center;
-
 }
 
 .footer ul a{
