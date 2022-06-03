@@ -139,7 +139,7 @@ body {
 }
 
 .about-us {
-    min-height: 50vh;
+    min-height: 30vh;
     width: 100%;
     background: linear-gradient(#1fa194, #3317a3);
     box-sizing: border-box;
@@ -196,8 +196,6 @@ body {
     line-height: 30px;
     margin-top: 12%;
     width: 80%;
-    margin: auto;
-    position: fixed;
 }
 
 .footer{
