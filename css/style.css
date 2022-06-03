@@ -139,7 +139,8 @@ body {
 }
 
 .about-us {
-    min-height: 30vh;
+    min-height: 40vh;
+
     width: 100%;
     background: linear-gradient(#1fa194, #3317a3);
     box-sizing: border-box;
