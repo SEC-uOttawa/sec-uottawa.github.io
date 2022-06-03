@@ -189,3 +189,69 @@ body {
     margin-top: 10%;
     width: 80%;
 }
+
+.footer{
+    background-color: #3317a3;
+    box-sizing: border-box;
+    padding: 40px 0;
+}
+
+.footer .Social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #1fa194;
+}
+
+.footer .Social a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .Social a:hover{
+    opacity: 0.9;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+
+.footer ul a{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footer .footer-text{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
