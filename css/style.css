@@ -94,7 +94,8 @@ body {
     border: 2px solid #1a1c1c;
     border-radius: 25px;
     position: absolute;
-    left: 47.5%;
+    left: 50%;
+    margin-left: -50px;
     top: 100%;
     cursor: pointer;
 }
