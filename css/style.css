@@ -150,8 +150,6 @@ body {
 }
 
 .about-us-title {
-    width: 55%;
-    position: absolute;
     top: 111%;
     left: 22.5%;
     text-align: center;
@@ -171,7 +169,7 @@ body {
 
 .line {
     width: 20%;
-    position: absolute;
+    position: relative;
     top: 118%;
     left: 40%;
    
@@ -184,10 +182,9 @@ body {
 
 .about-us-description {
     width: 70%;
-    position: absolute;
+    position: relative;
     top: 120%;
     left: 22%;
-    transform: translateY(-50%);
     text-align: center;
 }
 
@@ -195,7 +192,7 @@ body {
     font-size: 20px;
     color: #ffffff;
     line-height: 30px;
-    margin-top: 12%;
+    margin-top: 15px;
     width: 80%;
 }
 
